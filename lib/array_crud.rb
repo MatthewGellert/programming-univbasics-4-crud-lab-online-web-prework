@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def create_an_empty_array do
   it "creates and returns a empty array" do
     expect(create_an_empty_array).to eq([])
@@ -9,6 +10,15 @@ def create_an_array do
     expect(create_an_array). to be_a(Array)
     expect(create_an_array.size).to eq(4)
   end
+=======
+def create_an_empty_array
+  [""]
+end
+
+
+def create_an_array
+  
+>>>>>>> 56d682458f278445a00807030f7339f72623c2d7
 end
 
 def add_element_to_end_of_array(array, element) do
